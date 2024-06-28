@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(./assets/images/background-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading h1{
+  font-size: 105px;
+  color: white;
+  text-align: center;
+}
+
+.start {
+  position: absolute;
+  top: 75%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  width: 100%; 
+  text-align: center; 
+}
+
+.start img {
+  width: auto; 
+  max-width: 200px; 
+  display: block; 
+  margin: 0 auto; 
+  position: relative; 
+  bottom: 0; 
+}
